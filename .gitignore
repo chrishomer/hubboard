@@ -4,6 +4,5 @@ log/*.log
 tmp/
 .sass-cache/
 .rvmrc
-public/stylesheets/*
-public/javascripts/*
-
+public/assets/*
+*DS_Store

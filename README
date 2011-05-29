@@ -29,14 +29,14 @@ Configure the gemset for this app:
 
 Configure compass (using sass) for a rails 3.1.0 app:
 
-    compass init rails hubboard -s expanded --sass-dir app/assets/stylesheets --css-dir public/stylesheets --images-dir app/assets/images --javascripts-dir public/javascripts --syntax sass
+    compass init rails hubboard -s expanded --sass-dir app/assets/stylesheets --css-dir public/assets --images-dir app/assets/images --javascripts-dir public/assets --syntax sass
     
 Add some basics to the gitignore:
     
     # paste as one command
     echo ".rvmrc
-    public/stylesheets/*
-    public/javascripts/*
+    public/assets/*
+    *DS_Store
     "  >> .gitignore
 
 Now that we've got some "piping" in place, the first thing I like to do is create an app root page:

@@ -4,10 +4,10 @@ project_type = :rails
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "public/stylesheets"
+css_dir = "public/assets"
 sass_dir = "app/assets/stylesheets"
 images_dir = "app/assets/images"
-javascripts_dir = "public/javascripts"
+javascripts_dir = "public/assets"
 
 output_style = :expanded
 
