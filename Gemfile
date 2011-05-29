@@ -2,10 +2,18 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.rc1'
 
-# Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3'
+
+# because I hate erb
+gem 'compass'
+gem 'haml'
+gem "rb-fsevent", :group => :development
+
+# for connecting to oauth
+gem "oa-oauth", :require => "omniauth/oauth"
+
+# github integration gem
+gem "octokit"
 
 # Asset template engines
 gem 'sass'
@@ -14,12 +22,5 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
-
+# because unicorns are cooler than bricks
+gem "unicorn"
